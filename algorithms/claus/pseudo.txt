@@ -1,0 +1,18 @@
+1. guessing-game
+
+INPUT integer number from 1-10 
+var random.number
+IF INPUT = var  
+    OUTPUT 'right'
+ELSE
+    OUTPUT 'try again' and go back to INPUT
+
+2.seconds to week/day/hour/minute/seconds
+
+INPUT integer num (s)
+weeks = num (s) / 604600 % rest
+days = rest / 86400 % rest
+hours = rest / 3600 % rest
+minutes = rest / 60 % rest
+seconds = rest
+OUTPUT weeks:days:hours:minutes:seconds
