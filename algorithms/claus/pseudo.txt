@@ -26,7 +26,7 @@ INPUT integer num (€)
 IF INPUT / 10 % == 0
     IF 100 EUR == 0
 ELSE
-    INPUT integer num (€) and 'please enter amount devideable by 10'
+    INPUT integer num (€) and 'please enter amount divisible by 10'
 
 IF 100 EUR == 0
     IF 50 EUR == 0
@@ -53,4 +53,37 @@ OUTPUT '100 EUR, 50 EUR, 20 EUR, 10  EUR'
 END
 
 
+4. bubble-sort
 
+START
+
+INPUT N=5 integer num 1 - 10 into array i j k l m 
+
+IF i > j
+    IF loopcount > 3
+        IF loopcount < N - 1
+            loopcount ++ & login & restart
+        ELSE login & OUTPUT & END   
+    ELSE swap    
+ELSE IF j > k
+        IF loopcount > 2
+            IF loopcount < N - 1
+                loopcount ++ & login & restart
+            ELSE login & OUTPUT & END 
+        ELSE swap
+     ELSE IF k > l
+            IF loopcount > 1
+                IF loopcount < N - 1
+                    loopcount ++ & login & restart
+                ELSE login & OUTPUT & END
+            ELSE swap 
+          ELSE IF l > m
+                    swap
+                ELSE 
+                    IF loopcount < N - 1
+                        loopcount ++ & login & restart
+                    ELSE login & OUTPUT & END
+   
+                
+               
+        
